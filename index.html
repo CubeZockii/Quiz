@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Screen -->
+        <div id="login-screen" class="screen active">
+            <h2>Welcome, my love! ❤️</h2>
+            <p>Please enter your name and age:</p>
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="number" id="age" placeholder="Your Age">
+            </div>
+            <button onclick="checkCredentials()">Enter</button>
+        </div>
+
+        <!-- Wrong Person Screen -->
+        <div id="wrong-screen" class="screen hidden">
+            <h2>Oops! 😢</h2>
+            <p>Sorry, you are not the one I'm waiting for... but here’s a cookie for you! 🍪</p>
+            <img src="https://media.tenor.com/4FJrX6lYbM8AAAAM/cookie-cute.gif" alt="Cookie">
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen hidden">
+            <h2>Quiz Time! 💕</h2>
+            <p id="question-text"></p>
+            <input type="text" id="answer" placeholder="Your answer">
+            <button onclick="nextQuestion()">Next</button>
+        </div>
+
+        <!-- Final Message Screen -->
+        <div id="result-screen" class="screen hidden">
+            <h2>For You, My Love! 💖</h2>
+            <p id="final-message"></p>
+            <div id="confession" class="hidden">
+                <p>I love you more than words can say... 💕</p>
+                <p>Do you want to be my Girlfriend... ❤️💕</p>
+                <img src="https://media.tenor.com/5jw5IMqv3r8AAAAd/anime-couple-hug.gif" alt="Confession GIF">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
