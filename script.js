@@ -4,7 +4,7 @@ const correctAge = 17;       // Ihr Alter
 const questions = [
     { question: "Where was I recently", answer: "Italy" },
     { question: "When is my birthday?", answer: "3th September 2008" },
-    { question: "What is your favorite thing about me?", answer: "" },
+    { question: "What is your favorite thing about me?", answer: "your personality" },
     { question: "Who is the Computer Freak", answer: "Him" },
     { question: "What is my favorite food?", answer: "Pizza" },
     { question: "What was his reaction after u said 'I love u too'", answer: "shocked" },
